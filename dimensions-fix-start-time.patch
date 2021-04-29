@@ -1,0 +1,13 @@
+diff --git a/game.py b/game.py
+index c57d947..62aac02 100644
+--- a/game.py
++++ b/game.py
+@@ -128,6 +128,7 @@ class Game():
+         self._animation_id = None
+         self._counter_id = None
+         self._match_id = None
++        self.start_time = GLib.get_current_time()
+ 
+         if parent is None:  # Starting from command line
+             self._sugar = False
+
