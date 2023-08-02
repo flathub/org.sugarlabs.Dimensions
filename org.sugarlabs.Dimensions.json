@@ -1,9 +1,9 @@
 {
     "app-id": "org.sugarlabs.Dimensions",
     "base": "org.sugarlabs.BaseApp",
-    "base-version": "22.06",
+    "base-version": "23.06",
     "runtime": "org.gnome.Platform",
-    "runtime-version": "42",
+    "runtime-version": "44",
     "sdk": "org.gnome.Sdk",
     "separate-locales": false,
     "command": "sugarapp",
@@ -26,7 +26,12 @@
                 {
                     "type": "git",
                     "url": "https://github.com/sugarlabs/dimensions.git",
-                    "commit": "c9f429f7851322d80d99ee6d661033b7696b7018"
+                    "tag": "v60",
+                     "commit": "7942491480dc6a92717d27323f1c09c9a6b3a816",
+                     "x-checker-data": {
+                         "type": "git",
+                         "tag-pattern": "^v([\\d.]+)$"
+                     }
                 },
                 {
                     "type": "patch",
